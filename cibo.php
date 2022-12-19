@@ -27,7 +27,11 @@ class Cibo extends Prodotto{
      parent::__construct($immagine,$nome,$prezzo,$category);
     }
 
-
+    public function print(){
+        
+        echo 'peso netto:' .  $this->peso . 'g' . '<br>' . 
+        'ingredienti:' . $this->ingredienti;
+    }
 }
 
 ?>

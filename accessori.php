@@ -29,6 +29,13 @@ class Accessori extends Prodotto{
   }
 
 
+  public function print(){
+        
+    echo 'materiale:' . $this->materiale . '<br>';
+    echo   'dimensioni:' . $this->dimensioni;
+}
+
+
 }
 
 ?>

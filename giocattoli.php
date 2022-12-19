@@ -28,6 +28,12 @@ class Giocattoli extends Prodotto {
 
     }
 
+    public function print(){
+        
+        echo 'Caratteristiche:' . $this->caratteristiche .
+         '<br>' . 'Dimensione:' . $this->dimensioni;
+    }
+
 
 }
 
