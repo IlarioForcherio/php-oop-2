@@ -2,7 +2,8 @@
 
 include_once __DIR__ . '/prodotto.php';
 
-class Giocattoli extends Prodotto{
+
+class Giocattoli extends Prodotto {
 
   public $caratteristiche;
   public $dimensioni;

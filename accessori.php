@@ -2,7 +2,7 @@
 
 include_once __DIR__ . '/prodotto.php';
 
-class Accessori{
+class Accessori extends Prodotto{
 
   public $materiale;
   public $dimensioni;
@@ -24,7 +24,7 @@ class Accessori{
     {
     $this->materiale = $materiale;
     $this->dimensioni = $dimensioni;
-    
+    parent::__construct($immagine,$nome,$prezzo,$category);
 
   }
 
